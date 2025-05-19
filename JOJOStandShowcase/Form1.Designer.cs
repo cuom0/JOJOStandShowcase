@@ -34,7 +34,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.showcase = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Credits = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -90,23 +90,23 @@
             this.showcase.TabIndex = 3;
             this.showcase.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // Credits
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Image = global::JOJOStandShowcase.Properties.Resources.credits;
-            this.button1.Location = new System.Drawing.Point(352, 262);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(400, 260);
-            this.button1.TabIndex = 4;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Credits.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Credits.Image = global::JOJOStandShowcase.Properties.Resources.credits;
+            this.Credits.Location = new System.Drawing.Point(352, 262);
+            this.Credits.Name = "Credits";
+            this.Credits.Size = new System.Drawing.Size(400, 260);
+            this.Credits.TabIndex = 4;
+            this.Credits.UseVisualStyleBackColor = true;
+            this.Credits.Click += new System.EventHandler(this.button1_Click);
             // 
             // JoJoMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Credits);
             this.Controls.Add(this.showcase);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
@@ -130,6 +130,6 @@
         private Panel panel1;
         private PictureBox pictureBox3;
         private Button showcase;
-        private Button button1;
+        private Button Credits;
     }
 }
